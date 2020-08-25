@@ -6,8 +6,12 @@ public class JavaExample {
 //		String str = "a.b.c=c.b.a";
 //		System.out.println(str);
 		
-		String array = (String) new String("a.b.c=c.b.a");
-	    System.out.println(array);
+		String s1="a.b.c=c.b.a";  
+		  
+		for(String w:s1.split("\\s",1)){  
+		System.out.println(w); 
+		}
+	    
 	}
 
 }
